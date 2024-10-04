@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Validation</title>
+    <link rel="stylesheet" href="./simplevalidate.css">
+</head>  
+<body>
+    <form name="myform" onsubmit="return validateForm()" >
+        <h1>Registartion Form</h1>
+        <p>
+            <label for="name">Name : </label>
+            <input type="text" name="name" id="name">
+        </p>  
+        <p>
+            <label for="password">Password : </label>
+            <input type="password" name="password" id="password">
+        </p>
+        <p>
+            <label for="email">Email : </label>
+            <input type="text" name="email" id="email">
+        </p>
+        <p>
+            <input type="submit" value="Register">
+        </p>   
+    </form> 
+</body>
+<script src="./simpleValidation.js"></script>
+</html>
